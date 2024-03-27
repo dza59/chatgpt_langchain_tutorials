@@ -15,7 +15,7 @@ llm = OpenAI()
 
 # Prompt templates
 code_prompt = PromptTemplate(
-    input_variables=["task", "language"],
+     input_variables=["task", "language"],
     template="Write a very short {language} function that will {task}."
 )
 test_prompt = PromptTemplate(
